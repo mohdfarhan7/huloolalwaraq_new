@@ -25,8 +25,8 @@ export default function ProductDetailsPage() {
     "1": {
       name: "Premium Corrugated Boxes",
       image: "📦",
-      price: "$2.99",
-      originalPrice: "$3.99",
+      price: "11.21 SAR",
+      originalPrice: "14.96 SAR",
       rating: 4.9,
       reviews: 1247,
       description:
@@ -66,8 +66,8 @@ export default function ProductDetailsPage() {
     "2": {
       name: "Advanced Bubble Wrap",
       image: "🫧",
-      price: "$0.89",
-      originalPrice: "$1.19",
+      price: "3.34 SAR",
+      originalPrice: "4.46 SAR",
       rating: 4.8,
       reviews: 892,
       description:
@@ -109,9 +109,9 @@ export default function ProductDetailsPage() {
   const product = products[productId as keyof typeof products] || products["1"]
 
   const relatedProducts = [
-    { id: 3, name: "Professional Packing Tape", image: "🏷️", price: "$4.99", rating: 4.7 },
-    { id: 4, name: "Custom Foam Inserts", image: "🧽", price: "$12.99", rating: 4.9 },
-    { id: 5, name: "Smart Shipping Labels", image: "📋", price: "$0.25", rating: 4.6 },
+    { id: 3, name: "Professional Packing Tape", image: "🏷️", price: "18.71 SAR", rating: 4.7 },
+    { id: 4, name: "Custom Foam Inserts", image: "🧽", price: "48.71 SAR", rating: 4.9 },
+    { id: 5, name: "Smart Shipping Labels", image: "📋", price: "0.94 SAR", rating: 4.6 },
   ]
 
   return (
@@ -295,7 +295,7 @@ export default function ProductDetailsPage() {
                 <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-xl p-4 text-center">
                   <Truck className="w-8 h-8 text-blue-400 mx-auto mb-2" />
                   <div className="text-white font-medium">Free Shipping</div>
-                  <div className="text-white/70 text-sm">Orders over $50</div>
+                  <div className="text-white/70 text-sm">Orders over 187.50 SAR</div>
                 </div>
                 <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-xl p-4 text-center">
                   <Shield className="w-8 h-8 text-green-400 mx-auto mb-2" />

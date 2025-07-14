@@ -143,25 +143,49 @@ export default function ContactPage() {
             <div className="w-24 h-1 bg-kraft mx-auto mb-8"></div>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {contactMethods.map((method, idx) => (
-              <div key={idx} className="bg-white rounded-2xl p-8 text-center shadow-lg hover:shadow-xl transition-all duration-300 border border-kraft/20 transform hover:scale-105">
-                <div className="flex justify-center mb-6">
-                  <div className="p-4 bg-deepgreen/10 rounded-full">
-                    <method.icon className="w-8 h-8 text-deepgreen" />
+            {contactMethods.map((method, idx) => {
+              let href = undefined;
+              let target = undefined;
+              if (method.title === t("Call Us")) {
+                href = "tel:+966535414997";
+              } else if (method.title === t("Email Us")) {
+                href = "mailto:info@huloolalwaraq.com?cc=sales@huloolalwaraq.com";
+              } else if (method.title === t("WhatsApp")) {
+                href = "https://wa.me/966535414997";
+                target = "_blank";
+              } else if (method.title === t("Schedule Meeting")) {
+                const msg = encodeURIComponent("Hello, I would like to schedule a 30-min free consultation meeting with HuloolAlWaraq.");
+                href = `https://wa.me/966535414997?text=${msg}`;
+                target = "_blank";
+              }
+              return (
+                <div key={idx} className="bg-white rounded-2xl p-8 text-center shadow-lg hover:shadow-xl transition-all duration-300 border border-kraft/20 transform hover:scale-105">
+                  <div className="flex justify-center mb-6">
+                    <div className="p-4 bg-deepgreen/10 rounded-full">
+                      <method.icon className="w-8 h-8 text-deepgreen" />
+                    </div>
                   </div>
+                  <h3 className="text-xl font-bold text-deepgreen mb-4">{method.title}</h3>
+                  <p className="text-steel mb-6 leading-relaxed">{method.description}</p>
+                  <div className="space-y-2 mb-6">
+                    {method.details.map((detail, dIdx) => (
+                      <p key={dIdx} className="text-steel text-sm">{detail}</p>
+                    ))}
+                  </div>
+                  {href ? (
+                    <a href={href} target={target} rel={target ? "noopener noreferrer" : undefined}>
+                      <Button className="w-full bg-deepgreen hover:bg-kraft text-kraft hover:text-deepgreen border border-deepgreen hover:border-kraft rounded-xl transition-all duration-300 font-semibold">
+                        {method.action}
+                      </Button>
+                    </a>
+                  ) : (
+                    <Button className="w-full bg-deepgreen hover:bg-kraft text-kraft hover:text-deepgreen border border-deepgreen hover:border-kraft rounded-xl transition-all duration-300 font-semibold">
+                      {method.action}
+                    </Button>
+                  )}
                 </div>
-                <h3 className="text-xl font-bold text-deepgreen mb-4">{method.title}</h3>
-                <p className="text-steel mb-6 leading-relaxed">{method.description}</p>
-                <div className="space-y-2 mb-6">
-                  {method.details.map((detail, dIdx) => (
-                    <p key={dIdx} className="text-steel text-sm">{detail}</p>
-                  ))}
-                </div>
-                <Button className="w-full bg-deepgreen hover:bg-kraft text-kraft hover:text-deepgreen border border-deepgreen hover:border-kraft rounded-xl transition-all duration-300 font-semibold">
-                  {method.action}
-                </Button>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>

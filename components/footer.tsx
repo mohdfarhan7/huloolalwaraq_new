@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { Package, Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
+import { Package, Mail, Phone, MapPin, Facebook, X, Instagram, Linkedin } from "lucide-react"
 import { useTranslation } from 'react-i18next'
 
 export default function Footer() {
@@ -40,7 +40,7 @@ export default function Footer() {
 
   const socialLinks = [
     { icon: Facebook, href: "#", label: t("Facebook") },
-    { icon: Twitter, href: "#", label: t("Twitter") },
+    { icon: X, href: "#", label: t("X") },
     { icon: Instagram, href: "#", label: t("Instagram") },
     { icon: Linkedin, href: "#", label: t("LinkedIn") },
   ]

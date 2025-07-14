@@ -28,8 +28,8 @@ export default function Navbar() {
       hasDropdown: true,
       dropdownItems: [
         { href: "/packaging-products#packaging", label: t('Packaging') },
-        { href: "/packaging-products#logistics", label: t('Logistics') },
-        { href: "/packaging-products#consulting", label: t('Consulting') },
+        { href: "/packaging-products#industry-solutions", label: t('Industry-Specific Solutions') },
+        { href: "/packaging-products#custom-solutions", label: t('Consulting') },
       ],
     },
     { href: "/packaging-products", label: t('Products'), icon: <Box className="w-5 h-5 mr-1" /> },
@@ -38,7 +38,7 @@ export default function Navbar() {
     { href: "/portal", label: t('Client Portal'), icon: <Lock className="w-5 h-5 mr-1" /> },
   ]
 
-  const whatsappNumber = "+966535414997"
+  const whatsappNumber = "+966537447999"
   const whatsappLink = `https://wa.me/${whatsappNumber.replace(/[^\d]/g, "")}`
 
   return (

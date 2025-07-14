@@ -4,6 +4,13 @@ import Link from "next/link"
 import { Package, Mail, Phone, MapPin, Facebook, X, Instagram, Linkedin } from "lucide-react"
 import { useTranslation } from 'react-i18next'
 
+// Custom TikTok SVG Icon
+const TikTokIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg viewBox="0 0 24 24" fill="currentColor" width={24} height={24} {...props}>
+    <path d="M12.75 2h2.25a.75.75 0 0 1 .75.75v2.25a3.75 3.75 0 0 0 3.75 3.75h1.5a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-.75.75h-1.5a5.25 5.25 0 0 1-5.25-5.25V2.75A.75.75 0 0 1 12.75 2zm-2.25 5.25A5.25 5.25 0 0 0 5.25 12.5v4.75A4.75 4.75 0 0 0 10 22a4.75 4.75 0 0 0 4.75-4.75V10.5a.75.75 0 0 0-.75-.75h-2.25a.75.75 0 0 0-.75.75v6.75a2.25 2.25 0 1 1-2.25-2.25V12.5a2.75 2.75 0 1 1 5.5 0v4.75A5.25 5.25 0 0 1 10 22a5.25 5.25 0 0 1-5.25-5.25V12.5A7.75 7.75 0 0 1 12.75 4.25V2.75A.75.75 0 0 1 13.5 2h-2.25a.75.75 0 0 0-.75.75v2.25z" />
+  </svg>
+)
+
 export default function Footer() {
   const currentYear = new Date().getFullYear()
   const { t } = useTranslation()
@@ -39,10 +46,11 @@ export default function Footer() {
   ]
 
   const socialLinks = [
-    { icon: Facebook, href: "#", label: t("Facebook") },
-    { icon: X, href: "#", label: t("X") },
-    { icon: Instagram, href: "#", label: t("Instagram") },
-    { icon: Linkedin, href: "#", label: t("LinkedIn") },
+    { icon: Facebook, href: "https://www.facebook.com/profile.php?id=61577657660556", label: t("Facebook") },
+    { icon: X, href: "https://x.com/Huloolalwaraq", label: t("X") },
+    { icon: Instagram, href: "https://www.instagram.com/huloolalwaraq/", label: t("Instagram") },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/huloolalwaraq/", label: t("LinkedIn") },
+    { icon: TikTokIcon, href: "https://www.tiktok.com/@huloolalwaraq", label: "TikTok" },
   ]
 
   return (
@@ -68,13 +76,13 @@ export default function Footer() {
                 <div className="p-2 bg-kraft/40 rounded-full">
                   <Phone className="w-4 h-4 text-offwhite" />
                 </div>
-                <a href="tel:+966535414997" className="text-white/90 font-medium underline hover:text-kraft transition-colors duration-200">+966 53 541 4997</a>
+                <a href="tel:+966537447999" className="text-white/90 font-medium underline hover:text-kraft transition-colors duration-200">+966 53 744 7999</a>
               </div>
               <div className="flex items-center gap-3 hover:text-kraft transition-colors duration-200">
                 <div className="p-2 bg-kraft/40 rounded-full">
                   <MapPin className="w-4 h-4 text-offwhite" />
                 </div>
-                <span className="text-white/90 font-medium">{t('Riyadh, Saudi Arabia')}</span>
+                <span className="text-white/90 font-medium">{t('Dammam, saudi arabia')}</span>
               </div>
             </div>
           </div>

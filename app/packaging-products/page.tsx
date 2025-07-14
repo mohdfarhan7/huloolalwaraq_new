@@ -733,6 +733,8 @@ export default function PackagingProductsPage() {
         <div className="max-w-8xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-black text-deepgreen text-center mb-6">{t('Our Packaging Products')}</h1>
           <p className="text-xl text-steel max-w-4xl mx-auto mb-12 text-center">{t('We offer a full range of premium packaging solutions for every industry and need.')}</p>
+          {/* Anchor for Packaging */}
+          <div id="packaging" />
           {/* Category Overview Cards */}
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-8">
             {categories.slice(1).map((category, index) => (
@@ -753,6 +755,8 @@ export default function PackagingProductsPage() {
       <div className="mb-12">
         <div className="max-w-7xl mx-auto bg-green-700/80 border border-deepgreen rounded-2xl p-6">
           <div className="space-y-6">
+            {/* Anchor for Logistics */}
+            <div id="logistics" />
             {/* Search */}
             <div className="relative max-w-md mx-auto">
               <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 w-5 h-5 text-offwhite" />
@@ -781,6 +785,8 @@ export default function PackagingProductsPage() {
                 ))}
               </div>
             </div>
+            {/* Anchor for Consulting */}
+            <div id="consulting" />
             {/* Sectors */}
             <div>
               <h3 className="text-lg font-semibold text-offwhite mb-3 flex items-center gap-2">
@@ -953,7 +959,7 @@ export default function PackagingProductsPage() {
         </div>
       </div>
       {/* Industry Solutions */}
-      <div className="mt-20">
+      <div className="mt-20" id="industry-solutions">
         <div className="bg-white border border-steel rounded-3xl p-12">
           <h3 className="text-3xl font-bold text-deepgreen mb-8 text-center">{t('Industry-Specific Solutions')}</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -1012,7 +1018,7 @@ export default function PackagingProductsPage() {
         </div>
       </div>
       {/* Call to Action */}
-      <div className="mt-20">
+      <div className="mt-20" id="custom-solutions">
         <div className="bg-kraft/10 border border-kraft/30 rounded-3xl p-12 text-center">
           <h3 className="text-3xl font-bold text-deepgreen mb-6">{t('Need Custom Packaging Solutions?')}</h3>
           <p className="text-xl text-steel mb-8 max-w-3xl mx-auto">

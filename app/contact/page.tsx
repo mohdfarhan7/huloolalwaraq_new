@@ -60,7 +60,7 @@ export default function ContactPage() {
       icon: Phone,
       title: t("Call Us"),
       description: t("Speak directly with our experts"),
-      details: [t("+966 53 541 4997"), t("Available 24/7")],
+      details: [t("+966 53 744 7999"), t("Available 24/7")],
       action: t("Call Now"),
       color: "from-green-500/20 to-emerald-500/20",
     },
@@ -92,9 +92,9 @@ export default function ContactPage() {
 
   const offices = [
     {
-      city: t("Riyadh (HQ)"),
-      address: t("Industrial District, Riyadh, Saudi Arabia"),
-      phone: t("+966 53 541 4997"),
+      city: t("Dammam"),
+      address: t("Dammam, saudi arabia"),
+      phone: t("+966 53 744 7999"),
       email: t("info@huloolalwaraq.com"),
       hours: t("Sun-Thu: 8AM-6PM AST"),
     },
@@ -147,15 +147,15 @@ export default function ContactPage() {
               let href = undefined;
               let target = undefined;
               if (method.title === t("Call Us")) {
-                href = "tel:+966535414997";
+                href = "tel:+966537447999";
               } else if (method.title === t("Email Us")) {
                 href = "mailto:info@huloolalwaraq.com?cc=sales@huloolalwaraq.com";
               } else if (method.title === t("WhatsApp")) {
-                href = "https://wa.me/966535414997";
+                href = "https://wa.me/966537447999";
                 target = "_blank";
               } else if (method.title === t("Schedule Meeting")) {
                 const msg = encodeURIComponent("Hello, I would like to schedule a 30-min free consultation meeting with HuloolAlWaraq.");
-                href = `https://wa.me/966535414997?text=${msg}`;
+                href = `https://wa.me/966537447999?text=${msg}`;
                 target = "_blank";
               }
               return (

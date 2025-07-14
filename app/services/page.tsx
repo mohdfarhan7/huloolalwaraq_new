@@ -89,25 +89,25 @@ export default function ServicesPage() {
     },
     {
       id: "logistics",
-      title: t("Logistics & Distribution"),
+      title: t("Industry-Specific Solutions"),
       icon: Truck,
-      description: t("Complete supply chain and distribution solutions"),
+      description: t("Tailored packaging for every industry: e-commerce, food, electronics, pharma, and more."),
       features: [
-        t("Warehousing and inventory management"),
-        t("Order fulfillment services"),
-        t("Transportation management"),
+        t("Sector-specific expertise"),
+        t("Regulatory compliance"),
+        t("Custom supply chain solutions"),
         t("Real-time tracking systems"),
         t("International shipping"),
         t("Returns processing"),
       ],
       benefits: [
-        t("Reduced shipping costs"),
+        t("Optimized for your industry"),
         t("Faster delivery times"),
         t("Improved inventory turnover"),
         t("Enhanced customer satisfaction"),
       ],
       process: [
-        t("Inventory planning and forecasting"),
+        t("Industry analysis and planning"),
         t("Order processing and picking"),
         t("Packaging and labeling"),
         t("Carrier selection and booking"),
@@ -117,9 +117,9 @@ export default function ServicesPage() {
     },
     {
       id: "consulting",
-      title: t("Packaging Consulting"),
+      title: t("Need Custom Packaging Solutions?"),
       icon: Users,
-      description: t("Expert guidance for packaging optimization"),
+      description: t("Our packaging experts can create custom solutions tailored to your specific industry needs and requirements. From design to delivery, we handle everything across all sectors."),
       features: [
         t("Packaging audits and assessments"),
         t("Cost reduction strategies"),
@@ -262,6 +262,21 @@ export default function ServicesPage() {
                         <span key={bidx} className="px-3 py-1 bg-kraft/20 text-steel text-xs rounded-full border border-kraft/40">{benefit}</span>
                       ))}
                     </div>
+                    {/* Add redirect buttons for consulting and logistics */}
+                    {service.id === "consulting" && (
+                      <Link href="/packaging-products">
+                        <Button className="mt-4 bg-deepgreen text-offwhite font-semibold px-6 py-2 rounded-xl transition-all duration-200 hover:bg-kraft hover:text-deepgreen">
+                          {t('Get Custom Quote')}
+                        </Button>
+                      </Link>
+                    )}
+                    {service.id === "logistics" && (
+                      <Link href="/packaging-products#industry-solutions">
+                        <Button className="mt-4 bg-deepgreen text-offwhite font-semibold px-6 py-2 rounded-xl transition-all duration-200 hover:bg-kraft hover:text-deepgreen">
+                          {t('Explore Industry Solutions')}
+                        </Button>
+                      </Link>
+                    )}
                   </div>
                 </div>
               );

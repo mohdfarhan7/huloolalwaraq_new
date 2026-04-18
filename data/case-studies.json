@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "slug": "luxury-cosmetics-branding",
+    "title": "Luxury Cosmetics Brand Packaging Redesign",
+    "industry": "Cosmetics & Beauty",
+    "image": "/case-studies/cosmetics-case-study.jpg",
+    "challenge": "A premium cosmetics brand needed to differentiate themselves in a competitive market with unique, premium packaging.",
+    "solution": "We designed custom boxes with gold foil stamping, eco-friendly kraft materials, and a premium unboxing experience.",
+    "results": "20% increase in sales, improved customer perception, 95% positive feedback on packaging design",
+    "beforeImage": "/case-studies/cosmetics-before.jpg",
+    "afterImage": "/case-studies/cosmetics-after.jpg"
+  },
+  {
+    "id": 2,
+    "slug": "ecommerce-startup-scaling",
+    "title": "Ecommerce Startup Scaling with Custom Packaging",
+    "industry": "Ecommerce & Retail",
+    "image": "/case-studies/ecommerce-case-study.jpg",
+    "challenge": "A growing online retailer needed scalable packaging that maintained brand consistency while reducing costs.",
+    "solution": "Implemented custom branded mailers with color-coded sizes, protective inserts, and sustainable materials.",
+    "results": "30% reduction in packaging costs, improved delivery times, 85% reduction in damaged items",
+    "beforeImage": "/case-studies/ecommerce-before.jpg",
+    "afterImage": "/case-studies/ecommerce-after.jpg"
+  },
+  {
+    "id": 3,
+    "slug": "food-company-compliance",
+    "title": "Food Producer Packaging Compliance Solution",
+    "industry": "Food & Beverage",
+    "image": "/case-studies/food-case-study.jpg",
+    "challenge": "A food manufacturer needed FDA-compliant packaging that maintained product freshness and brand appeal.",
+    "solution": "Developed moisture-resistant, food-grade boxes with transparent windows and professional labeling.",
+    "results": "100% compliance achieved, product shelf life extended, customer satisfaction improved by 40%",
+    "beforeImage": "/case-studies/food-before.jpg",
+    "afterImage": "/case-studies/food-after.jpg"
+  },
+  {
+    "id": 4,
+    "slug": "industrial-logistics",
+    "title": "Industrial Equipment Protective Packaging",
+    "industry": "Manufacturing & Industrial",
+    "image": "/case-studies/industrial-case-study.jpg",
+    "challenge": "A machinery manufacturer needed heavy-duty packaging that could protect equipment during international shipping.",
+    "solution": "Created reinforced double-wall corrugated boxes with custom foam inserts and protective striping.",
+    "results": "99.5% damage-free delivery rate, customer confidence increased, repeat orders grew by 60%",
+    "beforeImage": "/case-studies/industrial-before.jpg",
+    "afterImage": "/case-studies/industrial-after.jpg"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Food & Beverage",
+    "slug": "food-beverage",
+    "icon": "🍔",
+    "description": "Custom packaging solutions for restaurants, cafes, bakeries, and food producers",
+    "image": "/industries/food-beverage.jpg",
+    "useCases": [
+      "Takeout boxes",
+      "Bakery packaging",
+      "Beverage carriers",
+      "Meal containers",
+      "Deli wrapping"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Ecommerce & Retail",
+    "slug": "ecommerce-retail",
+    "icon": "🛍️",
+    "description": "Shipping and retail packaging for online stores and brick-and-mortar retailers",
+    "image": "/industries/ecommerce-retail.jpg",
+    "useCases": [
+      "Shipping mailers",
+      "Product boxes",
+      "Display packaging",
+      "Branded unboxing",
+      "Custom inserts"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Electronics & Technology",
+    "slug": "electronics-technology",
+    "icon": "🔌",
+    "description": "Protective packaging for gadgets, devices, and electronic components",
+    "image": "/industries/electronics-technology.jpg",
+    "useCases": [
+      "Device protection",
+      "Foam inserts",
+      "Static-safe packaging",
+      "Premium unboxing",
+      "Component boxes"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Pharmaceuticals & Healthcare",
+    "slug": "pharmaceuticals-healthcare",
+    "icon": "💊",
+    "description": "Compliant packaging for medicines, medical devices, and healthcare products",
+    "image": "/industries/pharmaceuticals-healthcare.jpg",
+    "useCases": [
+      "Medicine boxes",
+      "Medical device packaging",
+      "Compliant labeling",
+      "Safety sealing",
+      "Temperature control"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Cosmetics & Beauty",
+    "slug": "cosmetics-beauty",
+    "icon": "💄",
+    "description": "Premium packaging for skincare, makeup, and beauty products",
+    "image": "/industries/cosmetics-beauty.jpg",
+    "useCases": [
+      "Fragrance boxes",
+      "Makeup containers",
+      "Luxury unboxing",
+      "Custom printing",
+      "Branded packaging"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Manufacturing & Industrial",
+    "slug": "manufacturing-industrial",
+    "icon": "🏭",
+    "description": "Heavy-duty packaging for industrial products and machinery",
+    "image": "/industries/manufacturing-industrial.jpg",
+    "useCases": [
+      "Component boxes",
+      "Industrial shipping",
+      "Protective wrapping",
+      "Machinery packaging",
+      "Bulk containers"
+    ]
+  }
+]

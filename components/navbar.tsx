@@ -22,20 +22,36 @@ export default function Navbar() {
   const navItems = [
     { href: "/", label: t('Home'), icon: <Home className="w-5 h-5 mr-1" /> },
     {
-      href: "/services",
-      label: t('Services'),
+      href: "/products",
+      label: t('Products'),
+      icon: <Box className="w-5 h-5 mr-1" />,
+      hasDropdown: true,
+      dropdownItems: [
+        { href: "/products/consumer-packaging", label: t('Consumer Packaging') },
+        { href: "/products/ecommerce-packaging", label: t('Ecommerce Packaging') },
+        { href: "/products/food-packaging", label: t('Food Packaging') },
+        { href: "/products/industrial-packaging", label: t('Industrial Packaging') },
+        { href: "/products/display-packaging", label: t('Display Packaging') },
+        { href: "/products/custom-solutions", label: t('Custom Solutions') },
+      ],
+    },
+    {
+      href: "/industries",
+      label: t('Industries'),
       icon: <Building2 className="w-5 h-5 mr-1" />,
       hasDropdown: true,
       dropdownItems: [
-        { href: "/packaging-products#packaging", label: t('Packaging') },
-        { href: "/packaging-products#industry-solutions", label: t('Industry-Specific Solutions') },
-        { href: "/packaging-products#custom-solutions", label: t('Consulting') },
+        { href: "/industries/food-beverage", label: t('Food & Beverage') },
+        { href: "/industries/ecommerce-retail", label: t('Ecommerce & Retail') },
+        { href: "/industries/electronics-technology", label: t('Electronics') },
+        { href: "/industries/pharmaceuticals-healthcare", label: t('Pharmaceuticals') },
+        { href: "/industries/cosmetics-beauty", label: t('Cosmetics & Beauty') },
+        { href: "/industries/manufacturing-industrial", label: t('Manufacturing') },
       ],
     },
-    { href: "/packaging-products", label: t('Products'), icon: <Box className="w-5 h-5 mr-1" /> },
-    { href: "/gallery", label: t('Gallery'), icon: <GalleryHorizontal className="w-5 h-5 mr-1" /> },
+    { href: "/blog", label: t('Blog'), icon: <FileText className="w-5 h-5 mr-1" /> },
+    { href: "/case-studies", label: t('Case Studies'), icon: <GalleryHorizontal className="w-5 h-5 mr-1" /> },
     { href: "/contact", label: t('Contact Us'), icon: <MessageCircle className="w-5 h-5 mr-1" /> },
-    { href: "/portal", label: t('Client Portal'), icon: <Lock className="w-5 h-5 mr-1" /> },
   ]
 
   const whatsappNumber = "+966537447999"

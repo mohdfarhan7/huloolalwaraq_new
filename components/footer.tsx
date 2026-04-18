@@ -19,28 +19,28 @@ export default function Footer() {
     {
       title: t("Products"),
       links: [
-        { label: t("Corrugated Boxes"), href: "/packaging-products" },
-        { label: t("Bubble Wrap"), href: "/packaging-products" },
-        { label: t("Packing Tape"), href: "/packaging-products" },
-        { label: t("Custom Solutions"), href: "/contact" },
+        { label: t("Corrugated Boxes"), href: "/products/consumer-packaging" },
+        { label: t("Ecommerce Packaging"), href: "/products/ecommerce-packaging" },
+        { label: t("Food Packaging"), href: "/products/food-packaging" },
+        { label: t("Custom Solutions"), href: "/products/custom-solutions" },
       ],
     },
     {
-      title: t("Company"),
+      title: t("Industries"),
       links: [
+        { label: t("Food & Beverage"), href: "/industries/food-beverage" },
+        { label: t("Ecommerce & Retail"), href: "/industries/ecommerce-retail" },
+        { label: t("Electronics"), href: "/industries/electronics-technology" },
+        { label: t("Pharmaceuticals"), href: "/industries/pharmaceuticals-healthcare" },
+      ],
+    },
+    {
+      title: t("Resources"),
+      links: [
+        { label: t("Blog"), href: "/blog" },
+        { label: t("Case Studies"), href: "/case-studies" },
         { label: t("About Us"), href: "/about" },
-        { label: t("Our Story"), href: "/about" },
-        { label: t("Careers"), href: "/contact" },
-        { label: t("News & Updates"), href: "/about" },
-      ],
-    },
-    {
-      title: t("Support"),
-      links: [
         { label: t("Contact Us"), href: "/contact" },
-        { label: t("Help Center"), href: "/contact" },
-        { label: t("Shipping Info"), href: "/contact" },
-        { label: t("Returns"), href: "/contact" },
       ],
     },
   ]

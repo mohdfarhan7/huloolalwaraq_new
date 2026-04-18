@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "ISO 9001",
+    "category": "Quality Management",
+    "logo": "/certifications/iso-9001.png",
+    "description": "International standard for quality management systems",
+    "year": 2020
+  },
+  {
+    "id": 2,
+    "name": "ISO 14001",
+    "category": "Environmental Management",
+    "logo": "/certifications/iso-14001.png",
+    "description": "Environmental management system certification",
+    "year": 2021
+  },
+  {
+    "id": 3,
+    "name": "FDA Compliant",
+    "category": "Food Safety",
+    "logo": "/certifications/fda-compliant.png",
+    "description": "FDA-compliant materials for food contact applications",
+    "year": 2019
+  },
+  {
+    "id": 4,
+    "name": "FSC Certified",
+    "category": "Sustainability",
+    "logo": "/certifications/fsc-certified.png",
+    "description": "Forest Stewardship Council certified sustainable materials",
+    "year": 2022
+  },
+  {
+    "id": 5,
+    "name": "REACH Compliant",
+    "category": "Chemical Safety",
+    "logo": "/certifications/reach-compliant.png",
+    "description": "Registration, Evaluation, Authorisation and Restriction of Chemicals",
+    "year": 2020
+  },
+  {
+    "id": 6,
+    "name": "SMETA Certified",
+    "category": "Social & Ethical",
+    "logo": "/certifications/smeta-certified.png",
+    "description": "Social and Ethical compliance assessment",
+    "year": 2021
+  }
+]

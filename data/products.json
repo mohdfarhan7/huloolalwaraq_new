@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Consumer Packaging",
+    "slug": "consumer-packaging",
+    "category": "consumer",
+    "description": "Premium packaging solutions for consumer goods and retail products",
+    "icon": "📦",
+    "image": "/products/consumer-packaging.jpg",
+    "details": "Custom boxes, wrapping, and protective materials for consumer products. Designed for premium presentation and brand protection.",
+    "specifications": {
+      "materials": ["Corrugated Cardboard", "Kraft Paper", "Custom Printing"],
+      "sizes": ["Small", "Medium", "Large", "Custom"],
+      "features": ["Eco-friendly", "Customizable", "Durable", "Professional"]
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ecommerce Packaging",
+    "slug": "ecommerce-packaging",
+    "category": "ecommerce",
+    "description": "Specialized packaging for online retailers and shipping",
+    "icon": "📫",
+    "image": "/products/ecommerce-packaging.jpg",
+    "details": "Protective mailers, shipping boxes, and cushioning materials optimized for ecommerce logistics",
+    "specifications": {
+      "materials": ["Corrugated", "Bubble Wrap", "Kraft Paper"],
+      "sizes": ["XS", "S", "M", "L", "XL", "Custom"],
+      "features": ["Lightweight", "Cost-effective", "Branded", "Recyclable"]
+    }
+  },
+  {
+    "id": 3,
+    "name": "Food Packaging",
+    "slug": "food-packaging",
+    "category": "food",
+    "description": "Food-safe packaging solutions for restaurants, bakeries, and food producers",
+    "icon": "🍔",
+    "image": "/products/food-packaging.jpg",
+    "details": "FDA-compliant packaging with moisture and grease resistance for food industry",
+    "specifications": {
+      "materials": ["Food-grade Paper", "Kraft", "Plastic Laminate"],
+      "sizes": ["Small", "Medium", "Large", "Bulk"],
+      "features": ["Food-safe", "Moisture-resistant", "Heat-sealable", "Customizable"]
+    }
+  },
+  {
+    "id": 4,
+    "name": "Industrial Packaging",
+    "slug": "industrial-packaging",
+    "category": "industrial",
+    "description": "Heavy-duty packaging for manufacturing and industrial products",
+    "icon": "🏭",
+    "image": "/products/industrial-packaging.jpg",
+    "details": "Reinforced packaging for heavy items, machinery components, and industrial goods",
+    "specifications": {
+      "materials": ["Double-wall Corrugated", "Steel Strapping", "Foam Inserts"],
+      "sizes": ["Custom", "Large", "Extra Large"],
+      "features": ["Heavy-duty", "Impact-resistant", "Custom design", "Protective"]
+    }
+  },
+  {
+    "id": 5,
+    "name": "Display Packaging",
+    "slug": "display-packaging",
+    "category": "display",
+    "description": "Eye-catching point-of-sale and retail display packaging",
+    "icon": "🎨",
+    "image": "/products/display-packaging.jpg",
+    "details": "Creative packaging solutions that enhance shelf appeal and brand visibility",
+    "specifications": {
+      "materials": ["Cardboard", "Kraft", "Specialty Papers"],
+      "sizes": ["Standard", "Custom", "Large Format"],
+      "features": ["Full-color printing", "Die-cut", "Brand-focused", "Marketing ready"]
+    }
+  },
+  {
+    "id": 6,
+    "name": "Custom Solutions",
+    "slug": "custom-solutions",
+    "category": "custom",
+    "description": "Bespoke packaging tailored to your specific requirements",
+    "icon": "⚙️",
+    "image": "/products/custom-solutions.jpg",
+    "details": "Work with our expert team to design and manufacture packaging that perfectly matches your vision",
+    "specifications": {
+      "materials": ["Any material", "Custom design", "Full branding"],
+      "sizes": ["Any dimension"],
+      "features": ["Fully customizable", "Expert consultation", "Small-to-large quantities", "End-to-end solution"]
+    }
+  }
+]

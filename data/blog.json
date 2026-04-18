@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "slug": "sustainable-packaging-future",
+    "title": "The Future of Sustainable Packaging",
+    "date": "2025-01-15",
+    "category": "Sustainability",
+    "image": "/blog/sustainable-packaging.jpg",
+    "excerpt": "Discover how eco-friendly packaging is reshaping the industry and helping businesses reduce their environmental footprint.",
+    "content": "Sustainable packaging has become more than just a trend—it's a necessity. Learn about the latest innovations in eco-friendly materials and how they benefit your business.",
+    "author": "HuloolAlWaraq Team"
+  },
+  {
+    "id": 2,
+    "slug": "packaging-design-trends-2025",
+    "title": "Top Packaging Design Trends for 2025",
+    "date": "2025-01-10",
+    "category": "Design",
+    "image": "/blog/packaging-design-trends.jpg",
+    "excerpt": "Explore the latest packaging design trends that are captivating consumers and boosting brand recognition.",
+    "content": "From minimalist designs to bold, colorful aesthetics, packaging trends continue to evolve. Here are the top trends shaping 2025.",
+    "author": "HuloolAlWaraq Team"
+  },
+  {
+    "id": 3,
+    "slug": "ecommerce-packaging-guide",
+    "title": "Complete Guide to Ecommerce Packaging",
+    "date": "2025-01-05",
+    "category": "Tips",
+    "image": "/blog/ecommerce-packaging-guide.jpg",
+    "excerpt": "Master the art of ecommerce packaging with our comprehensive guide covering materials, design, and cost optimization.",
+    "content": "Ecommerce packaging requires careful consideration of durability, branding, and cost. This guide covers everything you need to know.",
+    "author": "HuloolAlWaraq Team"
+  },
+  {
+    "id": 4,
+    "slug": "custom-packaging-benefits",
+    "title": "Why Custom Packaging is Worth the Investment",
+    "date": "2024-12-28",
+    "category": "Business",
+    "image": "/blog/custom-packaging-benefits.jpg",
+    "excerpt": "Learn how custom packaging can elevate your brand, improve customer experience, and increase sales.",
+    "content": "Custom packaging isn't just about protection—it's a powerful marketing tool that can transform your brand perception.",
+    "author": "HuloolAlWaraq Team"
+  }
+]
